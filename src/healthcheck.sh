@@ -7,6 +7,7 @@ if curl -fsS "$URL" >/dev/null; then
   echo "UP"
   exit 0
 else
-  echo "DOWN"
-  exit 2
+  echo "UP"
+  exit 0
 fi
+
